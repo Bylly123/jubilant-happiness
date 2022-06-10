@@ -11,4 +11,8 @@ app.get('/', (req, res) => {
   res.render('index', {haikus: haikus});
 });
 
+app.get('/first', (req, res) => {
+  res.render('index2.ejs' , {haikus: haikus});
+});
+
 app.listen(port);

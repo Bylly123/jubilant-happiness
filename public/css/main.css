@@ -6,31 +6,30 @@ body {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     color: #fff;
-    text-align:center;
 }
 
-.mona-images {
-    max-width: 400px;
-    max-height: 400px;
-    border: 8px solid #fff;
+.navig{
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
 }
 
-.haiku-containers {
-    padding: 10px 0px 20px 0px;
+.h1{
+    padding: 20px;
+    margin: 20px;
+    background: transparent;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    border: transparent;
+    font-size: larger;
+    font-family: 'Roboto Mono', monospace;
 }
 
-.haikus {
-    font-size: 18px;
-    white-space: pre-wrap;
+.h1:hover{
+    color: red;
 }
 
-@media only screen and (max-width: 600px) {
-    .june-images {
-        max-width: 340px;
-        max-height: 340px;
-    }
-
-    .haikus {
-        font-size: 22px;
-    }
+#a{
+    text-decoration: underline;
 }
